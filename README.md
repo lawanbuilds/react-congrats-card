@@ -1,16 +1,123 @@
-# React + Vite
+# 🎉 React Congrats Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Congratulations Card application built using React.js, JavaScript, and CSS. The project displays a profile image, student details, and a watch image inside a centered card with a colorful background.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[View Live Project](https://react-congrats-card.vercel.app/)**
 
-## React Compiler
+## 📸 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Congrats Card project is a beginner-friendly React application created to practice JSX, functional components, CSS styling, image handling, Flexbox, and responsive web design.
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Responsive layout for mobile and desktop screens
+- Profile image and student information
+- Watch image displayed inside the card
+- Background image with a centered card layout
+- CSS Flexbox for alignment
+- Reusable React functional component
+
+## 🛠️ Tech Stack
+
+- **React.js** — UI development
+- **JavaScript (ES6+)** — application logic
+- **CSS3** — styling and responsive design
+- **Vite** — development server and build tool
+- **Git and GitHub** — version control and code hosting
+- **Vercel** — deployment
+
+## 📂 Project Structure
+
+```text
+react-congrats-card/
+├── public/
+│   └── images/
+│       ├── congrats-card-bg.png
+│       ├── congrats-card-profile-img.png
+│       └── congrats-card-watch-img.png
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/lawanbuilds/react-congrats-card.git
+cd react-congrats-card
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+### 5. Preview the production build
+
+```bash
+npm run preview
+```
+
+## 🎨 Design Details
+
+- **Background color:** `#0f172a`
+- **Card background:** `#cffafe`
+- **Text color:** `#1e293b`
+- **Font family:** Roboto, Arial, sans-serif
+- **Layout:** CSS Flexbox
+- **Responsive design:** CSS media queries
+
+## 📚 Learning Outcomes
+
+- Creating React functional components
+- Writing JSX and rendering images
+- Applying CSS Flexbox and responsive styling
+- Organizing project assets
+- Using Git and GitHub for version control
+- Deploying a React application with Vercel
+
+## 👨‍💻 Author
+
+**Lawan**
+
+GitHub: [@lawanbuilds](https://github.com/lawanbuilds)
+
+Live Demo: [React Congrats Card](https://react-congrats-card.vercel.app/)
+
+---
+
+Built with ❤️ as part of my React.js learning journey.
